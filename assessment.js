@@ -44,12 +44,6 @@
 
         twttr.widgets.load();
     };
-
-    useNameInput.onkeydown = (event) => {
-        if (event.keyCode == 14) {
-            assessmentButton.onclick();
-            }
-        };
     
     
     const answers = [
